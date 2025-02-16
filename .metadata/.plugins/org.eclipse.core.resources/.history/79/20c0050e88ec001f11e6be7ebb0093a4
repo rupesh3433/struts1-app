@@ -1,0 +1,9 @@
+package com.example.validator;
+
+public class LoginValidator {
+
+	public LoginValidator() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package struts.action;
+
+public class LogoutAction {
+
+	public LogoutAction() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

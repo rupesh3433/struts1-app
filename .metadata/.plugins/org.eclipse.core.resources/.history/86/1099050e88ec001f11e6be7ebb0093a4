@@ -1,0 +1,9 @@
+package com.example.util;
+
+public class SecurityHelper {
+
+	public SecurityHelper() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

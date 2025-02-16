@@ -1,0 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <html:form action="/login.do">
+        Username: <html:text property="username"/><br>
+        Password: <html:password property="password"/><br>
+        <html:submit value="Login"/>
+    </html:form>
+    
+    <% if (request.getAttribute("errorMessage") != null) { %>
+        <div style="color:red"><%= request.getAttribute("errorMessage") %></div>
+    <% } %>
+</body>
+</html>

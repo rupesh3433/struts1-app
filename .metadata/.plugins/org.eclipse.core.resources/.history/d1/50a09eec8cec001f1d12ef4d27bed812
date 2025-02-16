@@ -1,0 +1,9 @@
+package com.example.action;
+
+public class WelcomeAction {
+
+	public WelcomeAction() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

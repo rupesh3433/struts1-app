@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Struts 1</title>
+</head>
+<body>
+    <h1>Welcome to Struts 1!</h1>
+    <p>This is the index page.</p>
+    <a href="welcome.jsp">Go to Welcome Page</a>
+</body>
+</html>

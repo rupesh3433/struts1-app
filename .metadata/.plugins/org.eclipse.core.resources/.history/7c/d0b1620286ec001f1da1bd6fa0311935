@@ -1,0 +1,27 @@
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+    <form-beans>
+        <form-bean name="loginForm" type="struts.form.LoginForm"/>
+    </form-beans>
+
+    <action-mappings>
+        <action path="../login"
+                type="struts.action.LoginAction"
+                name="loginForm"
+                scope="request"
+                input="../login.jsp">
+            <forward name="success" path="/welcome.jsp"/>
+            <forward name="error" path="/error.jsp"/>
+        </action>
+        
+        <action path="/logout"
+                type="com.example.struts.action.LogoutAction">
+            <forward name="success" path="/login.jsp"/>
+        </action>
+    </action-mappings>
+
+    <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
+</struts-config>
