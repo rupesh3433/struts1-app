@@ -32,7 +32,7 @@ Download these first:
 
 ---
 
-## 🛠️ Step 1: Install JDK 8  
+## 🛠️ Step 1: Install JDK 8
 **Why**: Struts 1 works best with Java 8  
 
 1. Run `jdk-8u202-windows-x64.exe`  
