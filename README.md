@@ -47,62 +47,61 @@ Download these first:
    ```bash
    java -version  # Should show "1.8.0_202"
 
+---
+
 ## 🐱 Step 2: Install Tomcat 9  
 **Why**: Tomcat 10+ uses Jakarta EE (incompatible with Struts 1)
 
 1. Extract `apache-tomcat-9.0.99.zip` to:  
 2. Set environment variables:  
-- **Variable name**: `CATALINA_HOME`  
-- **Variable value**: `C:\tomcat9`
+- **Variable name**: 'CATALINA_HOME'  
+- **Variable value**: 'C:\tomcat9'
 3. Add to PATH:  
-- `%CATALINA_HOME%\bin`
+- '%CATALINA_HOME%\bin'
 4. Test installation:  
-```bash
+'''bash
 startup.bat  # Starts Tomcat server
 
-## 🌌 Step 3: Install Eclipse IDE  
-1. Extract `eclipse-jee-2021-06-win32-x86_64.zip` to:  
+---
+
+## 🌌 Step 3: Install Eclipse IDE
+1. Extract `eclipse-jee-2021-06-win32-x86_64.zip` to your preferred location.  
 2. First launch setup:  
-- Select workspace: `C:\struts1-workspace`  
-- Switch to Java EE perspective  
+   - Select workspace: `C:\struts1-workspace`  
+   - Switch to Java EE perspective 
+
+---
 
 ## 📂 Step 4: Configure the Project  
 
-**Part A: Import Project**  
+### Part A: Import Project  
 - In Eclipse:  
-1. Navigate to `File > Import > Existing Projects into Workspace`  
-2. Select project folder:  
-  - Browse to the `struts1-app` directory  
-  - Check "Copy projects into workspace"  
+  1. Navigate to `File > Import > Existing Projects into Workspace`  
+  2. Select project folder:  
+     - Browse to the `struts1-app` directory  
+     - Check **"Copy projects into workspace"**
 
-**Part B: Add Struts Libraries**  
+### Part B: Add Struts Libraries  
 1. Copy the Struts JAR files to:  
-- `YourProject/WebContent/WEB-INF/lib`  
+   - `YourProject/WebContent/WEB-INF/lib`  
 2. Configure build path:  
-- Right-click project > Build Path > Add JARs  
-- Select all JARs from `WEB-INF/lib`  
+   - Right-click the project > **Build Path > Add JARs**  
+   - Select all JARs from `WEB-INF/lib`
 
-**Part C: Configure Tomcat Server**  
+### Part C: Configure Tomcat Server  
 1. Add server runtime:  
-- Navigate to `Window > Preferences > Server > Add Tomcat v9.0`  
-- Set the installation directory to: `C:\tomcat9`  
+   - Navigate to `Window > Preferences > Server > Add Tomcat v9.0`  
+   - Set the installation directory to: `C:\tomcat9`  
+
+---
 
 ## 🚀 Step 5: Run the Application  
-1. Deploy the project:  
-- Right-click project > Run As > Run on Server  
-2. Access the application at:  
-- `http://localhost:8080/struts1-app/login.jsp`  
-3. Test credentials:  
-- **Username**: `admin`  
-- **Password**: `secret`
-
-## 🚀 Step 5: Run the Application
 
 1. **Deploy the project:**  
-   - Right-click project > Run As > Run on Server
+   - Right-click the project > **Run As > Run on Server**
 
 2. **Access the application at:**  
-   - [http://localhost:8080/struts1-app/login.jsp]()
+   - [http://localhost:8080/struts1-app/login.jsp](http://localhost:8080/struts1-app/login.jsp)
 
 3. **Test credentials:**  
    - **Username:** `admin`  
