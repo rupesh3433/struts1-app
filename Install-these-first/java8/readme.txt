@@ -1,1 +1,0 @@
-install this and copy its path from C drive( inside program files ) and paste it to system path environment variables.
