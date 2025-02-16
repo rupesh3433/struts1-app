@@ -25,10 +25,10 @@ Download these first:
 
 | Component             | Download Link                                                                 |
 |-----------------------|-------------------------------------------------------------------------------|
-| **JDK 8**             | [Google Drive](https://drive.google.com/drive/folders/1nE7Uj4yye3BhX2muWmQ2Uzv0JeTTS-44) |
-| **Tomcat 9**          | [Google Drive](https://drive.google.com/drive/folders/1kXsuy3k1mPA1Q1lyFc84fMyWlLWSPP6L) |
-| **Eclipse IDE**       | [Google Drive](https://drive.google.com/drive/folders/1QqCoKgxcpkUefVSYjEZyJ-qn_CkIxX_A) |
-| **Struts 1.3.10 JARs** | [Google Drive](https://drive.google.com/drive/folders/1w-jcWP5xbs8EUjWlMog1mdPGXToqvQFW)       |
+| **JDK 8**             | [Google Drive](https://drive.google.com/drive/folders/1fIcgUiABRLEQqD0TuksWWXvhzATB2bNG?usp=sharing) |
+| **Tomcat 9**          | [Google Drive](https://drive.google.com/drive/folders/1TkM2OrSfyg0IDYiCp4jmrwVd6Z_seJ35?usp=sharing) |
+| **Eclipse IDE**       | [Google Drive](https://drive.google.com/drive/folders/1mkbcdwyxIFye7agYczZ80qD10ErN_axZ?usp=sharing) |
+| **Struts 1.3.10 JARs** | [Google Drive](https://drive.google.com/drive/folders/1zj3ssoR-xxJ7MhjzFhE-NFbCDbOAm2qZ?usp=sharing)       |
 
 ---
 
