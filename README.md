@@ -11,7 +11,7 @@
 
 ## 📋 Table of Contents
 1. [Prerequisites](#-prerequisites)
-2. [Step 1: Install JDK 8](#-step-1-install-jdk-8)
+2. [Step 1: Install JDK 8](#-step-2-install-jdk-8)
 3. [Step 2: Install Tomcat 9](#-step-2-install-tomcat-9)
 4. [Step 3: Install Eclipse IDE](#-step-3-install-eclipse-ide)
 5. [Step 4: Configure the Project](#-step-4-configure-the-project)
