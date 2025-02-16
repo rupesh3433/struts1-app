@@ -2,25 +2,25 @@
 **College Assignment | PCCOE 2025**  
 *For Educational/Historical Purposes Only*  
 
----
+---  
 
 ## 🌟 Beginner-Friendly Setup Guide  
-*Tested on Windows 11 with JDK 8 + Tomcat 9 + Eclipse*
+*Tested on Windows 11 with JDK 8 + Tomcat 9 + Eclipse*  
 
----
+---  
 
 ## 📋 Table of Contents
-1. [Prerequisites](#-prerequisites)
-2. [Step 1: Install JDK 8](#-step-2-install-jdk-8)
-3. [Step 2: Install Tomcat 9](#-step-2-install-tomcat-9)
-4. [Step 3: Install Eclipse IDE](#-step-3-install-eclipse-ide)
-5. [Step 4: Configure the Project](#-step-4-configure-the-project)
-6. [Step 5: Run the Application](#-step-5-run-the-application)
-7. [Troubleshooting](#-troubleshooting)
+1. [Prerequisites](#prerequisites)
+2. [Step 1: Install JDK 8](#step-1-install-jdk-8)
+3. [Step 2: Install Tomcat 9](#step-2-install-tomcat-9)
+4. [Step 3: Install Eclipse IDE](#step-3-install-eclipse-ide)
+5. [Step 4: Configure the Project](#step-4-configure-the-project)
+6. [Step 5: Run the Application](#step-5-run-the-application)
+7. [Troubleshooting](#troubleshooting)
 
----
+---  
 
-## 📥 Prerequisites  
+## 📥 Prerequisites {#prerequisites}  
 Download these first:  
 
 | Component             | Download Link                                                                 |
@@ -30,19 +30,17 @@ Download these first:
 | **Eclipse IDE**       | [Google Drive](https://drive.google.com/drive/folders/1mkbcdwyxIFye7agYczZ80qD10ErN_axZ?usp=sharing) |
 | **Struts 1.3.10 JARs** | [Google Drive](https://drive.google.com/drive/folders/1zj3ssoR-xxJ7MhjzFhE-NFbCDbOAm2qZ?usp=sharing)       |
 
----
+---  
 
-## 🛠️ Step 1: Install JDK 8
+## 🛠️ Step 1: Install JDK 8 {#step-1-install-jdk-8}
 **Why**: Struts 1 works best with Java 8  
 
 1. Run `jdk-8u202-windows-x64.exe`  
 2. Set **JAVA_HOME**:  
    - **Variable name**: `JAVA_HOME`  
    - **Variable value**: `C:\Program Files\Java\jdk1.8.0_202`
-
 3. Add Java to **PATH**:  
    - `%JAVA_HOME%\bin`
-
 4. Verify installation:  
    ```bash
    java -version  # Should show "1.8.0_202"
